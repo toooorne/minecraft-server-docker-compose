@@ -1,28 +1,5 @@
 # Minecraft Server in a Docker Compose
 
-# Author
-# hey, I’m Vladimir Mikhalev, but my friends call me Valdemar.
-
-# My website with detailed IT guides: https://www.heyvaldemar.com/
-# Follow me on YouTube: https://www.youtube.com/channel/UCf85kQ0u1sYTTTyKVpxrlyQ?sub_confirmation=1
-# Follow me on Twitter: https://twitter.com/heyValdemar
-# Follow me on Instagram: https://www.instagram.com/heyvaldemar/
-# Follow me on Facebook: https://www.facebook.com/heyValdemarFB/
-# Follow me on TikTok: https://www.tiktok.com/@heyvaldemar
-# Follow me on [LinkedIn](https://www.linkedin.com/in/heyvaldemar/)
-# Follow me on [GitHub](https://github.com/heyvaldemar)
-
-# Communication
-# Chat with IT pros on Discord: https://discord.gg/AJQGCCBcqf
-# Reach me at ask@sre.gg
-
-# Give Thanks
-# Support on GitHub: https://github.com/sponsors/heyValdemar
-# Support on Patreon: https://www.patreon.com/heyValdemar
-# Support on BuyMeaCoffee: https://www.buymeacoffee.com/heyValdemar
-# Support on Ko-fi: https://ko-fi.com/heyValdemar
-# Support on PayPal: https://www.paypal.com/paypalme/heyValdemarCOM
-
 # Install Docker Engine and Docker Compose by following my guide: https://www.heyvaldemar.com/install-docker-engine-and-docker-compose-on-ubuntu-server/
 
 # Note that plugins folder should be in the same directory with minecraft-server-docker-compose.yml
@@ -57,7 +34,7 @@ services:
       EULA: 'true'
       CONSOLE: 'false'
       # Server icon (replace with yours)
-      ICON: https://www.heyvaldemar.com/wp-content/uploads/heyvaldemar-minecraft.png
+      ICON: https://github.com/toooorne/minecraft-server-docker-compose/blob/main/.infragenie/doge_64.png
       # Minecraft server type (replace with yours)
       # VANILLA, FORGE, BUKKIT, SPIGOT, PAPER, CURSEFORGE, SPONGEVANILLA, FABRIC
       TYPE: PAPER
@@ -66,9 +43,9 @@ services:
       # Memory limit (replace with yours)
       MEMORY: 2G
       # Server name (replace with yours)
-      SERVER_NAME: MC.HEVA.CO - heyValdemar - Minecraft
+      SERVER_NAME: toooorne_server
       # Message of the day (replace with yours)
-      MOTD: MC.HEVA.CO - Welcome to Valdemar's Minecraft server
+      MOTD: Minecraft server ITS ALIV3!
       # Level type and generator settings (replace with yours)
       # DEFAULT, FLAT, LARGEBIOMES, AMPLIFIED, CUSTOMIZED, BUFFET
       LEVEL_TYPE: DEFAULT
@@ -107,7 +84,7 @@ services:
       # View distance (replace with yours)
       VIEW_DISTANCE: 10
       # Online mode (replace with yours)
-      ONLINE_MODE: 'true'
+      ONLINE_MODE: 'false'
       # Snooper (replace with yours)
       SNOOPER_ENABLED: 'true'
       # Enable command block (replace with yours)
